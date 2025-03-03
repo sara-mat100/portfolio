@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Matar - Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #about {
+            background: #f8f9fa;
+        }
+
+        #skills {
+            background: #e9ecef;
+        }
+
+        #experience {
+            background: #dee2e6;
+        }
+
+        #contact {
+            background: #ced4da;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sara Matar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="parallax" style="background-image: url('https://github.com/user-attachments/assets/307e6b1d-0c02-4b11-80c2-57b30ad8bdbb'); height: 100vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+       
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Results-driven Full Stack Developer with 5+ years of experience building scalable, high-performance applications using .NET, React, Next.js, Node.js, and SQL. Skilled in Azure, API optimization, and CI/CD automation, reducing cloud costs by 30% and improving deployment efficiency by 5x. Optimized database performance (60% faster queries) and enhanced real-time data processing for enterprise applications. Improved GIS applications, cutting page load times by 50% and boosting search performance by 10x. Strong in RBAC, structured logging, and API security hardening. Adept at collaborating with cross-functional teams, accelerating feature releases by 2 weeks and reducing customer-reported issues by 60%. Passionate about cloud computing, DevOps automation, and performance engineering.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Frontend: React.js, Next.js, AngularJS, JavaScript, HTML5, CSS3, Bootstrap</li>
+                <li>Backend: ASP.NET, .NET Core, C#, Java, RESTful APIs, Node.js</li>
+                <li>Databases: SQL, MySQL, PostgreSQL</li>
+                <li>Cloud & DevOps: Azure, Docker, Back4App, Cloud Functions</li>
+                <li>Tools: Git, Visual Studio</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <p><strong>Full Stack Developer, Techsden (2022 - Present)</strong></p>
+            <ul>
+                <li> Contributed to the development of an event-driven, multi-cloud platform with Azure, AWS, and Google Cloud, utilizing .NET and React to enable real-time data updates for enterprise applications, reducing cloud costs by 30% while enhancing high availability and performance metrics.
+                </li>
+                <li>
+                    Implemented SQL query optimizations in a financial transaction processing system, improving data retrieval speeds by 60%, leading to a 40% increase in client dashboard performance and a reduction of nightly batch processing times from 45 minutes to 18 minutes.
+                </li><li>
+    Established a CI/CD pipeline using Azure DevOps, integrating unit tests and automating deployments, which resulted in a 90% reduction in hotfixes, a 5x increase in deployment frequency, and a 66% decrease in bug reports, significantly improving release efficiency and code quality.
+</li> <li>
+    Built and delivered full-stack applications for clients using Next.js, React, and .NET, improving site responsiveness.
+</li> <li>
+    Advanced cross-functional collaboration by translating complex technical processes into business value for non-technical stakeholders, utilizing visuals and simplified analogies, which improved team engagement, accelerated decision-making, and increased stakeholder trust, leading to a 60% drop in customer-reported issues and a 2-week reduction in time-to-market for new features.
+</li>
+
+
+            </ul>
+
+            <p><strong>Software Developer, Freelance (2019 - 2021)</strong></p>
+            <ul>
+
+                <li>
+                    Engineered and deployed a Next.js and Back4App e-commerce application using Docker, achieving a 40% improvement in site responsiveness, resulting in a 20% increase in user session duration and a 15% boost in conversion rates.
+                </li>
+                <li>
+                    Increased real-time data synchronization for dynamic store updates, contributing to a 12% decrease in cart abandonment and supporting a 30% rise in traffic handling during high-demand periods, bolstering a 25% growth in the client's online customer base within three months.
+                </li>
+                <li>
+                    Conducted comprehensive performance analysis with Chrome DevTools, New Relic, and Back4App Cloud Code Logging to reduce RESTful API load times by 30%, enhancing backend processing efficiency by 50% and enabling a 30% increase in concurrent user capacity without performance degradation.
+                </li>
+                <li> Strategically automated software development workflows, including API testing with Postman and Jest, database migrations with Sequelize, and CI/CD pipelines with GitHub Actions, reducing project delivery time by 13 days and fostering a more agile, efficient, and error-resistant development environment.
+            </li>
+</ul>
+
+            <p><strong>.NET Software Developer, Softech (2017 - 2019)</strong></p>
+            <ul>
+                <li>
+                    Spearheaded a complete migration of a monolithic .NET Web Forms application to an ASP.NET MVC architecture, resulting in a 30% reduction in code complexity and a 40% increase in performance, thereby enhancing maintainability, scalability, and enabling efficient API integrations for future enterprise-level enhancements.
+                </li>
+                <li>
+                    Pioneered a hybrid search architecture for a high-priority library system, employing Elasticsearch and optimized SQL Server queries, which slashed search response times from over 10 seconds to under 1 second and scaled system capacity to handle 3x more concurrent search requests.
+                </li>
+                <li>
+                    Orchestrated cross-functional collaboration with Data Engineering, DevOps, UI/UX, Security, and Business teams to deliver a robust, user-friendly book management system within a stringent deadline, culminating in a 50% faster data ingestion from Hadoop, 3x scalability improvements, and 35% faster frontend performance, earning a significant bonus for exceptional project delivery under pressure.
+                </li>
+                <li> Implemented extensive code quality initiatives, including structured logging, automated CI/CD, and rigorous adherence to SOLID principles, which decreased onboarding time for new developers, expedited debugging by 5x, and ensured a high degree of system reliability with automated regression testing.
+          </li>
+                    </ul>
+
+            <p><strong>Software Developer, Arabia GIS (2016 - 2017)</strong></p>
+            <ul>
+                <li>
+                    Conceived and engineered an ASP.NET MVC-based website as a first-time Software Developer at Arabia GIS, overcoming the steep learning curve of professional environments and mastering Node.js and React.js to fortify election management tools, delivering real-time updates and handling peak traffic with 2-3x user concurrency improvements.
+                </li>
+                <li>
+                    Spearheaded performance optimizations for Tahaki.com's GIS web application, employing lazy loading and asynchronous AngularJS fetching to slash initial load times by 40% and API call frequency by 30-50%, while also reducing page load times by 30-50% through frontend enhancements, resulting in a 30% surge in mobile user adoption.
+                </li>
+                <li>
+                    Pioneered backend refactoring of Java-based API endpoints for Tahaki.com, advancing to asynchronous processing techniques that trimmed API response times by 35%, and optimized SQL queries for spatial data, which expedited execution by 25-40%, thereby catapulting system scalability and user experience for a high-demand GIS platform.
+                </li>
+                <li> Fortified Tahaki.com’s security infrastructure by implementing robust features such as RBAC, slashing unauthorized access by 60%, and replacing session-based authentication with JWT authentication, diminishing login time by 35% and session hijacking incidents by 70%, earning commendation for zero successful SQL injection attempts and reinforcing user confidence in system integrity.
+            </li>
+                    </ul>
+        </div>
+    </section>
+
+   <section id ="Education">
+       <div class="container">
+                      <h2>Education</h2>
+                      <ul>
+                          <li>Bachelor’s degree in computer & communication network engineering
+                          Lebanese University, Lebanon
+                          Graduated: May 2016
+                          </li>
+                          <li>
+                              Correlation One: Professional Development for Tech Roles Training Program
+                              Nov 2024 - Present
+                          </li>
+                          <li>
+                              Microsoft Certified: Azure Administrator Associate
+                              2024
+                          </li>
+                          <li>
+                              Cloud Computing Fundamentals – Coursera
+                              2019
+                     </li>
+                              </ul>
+       </div>
+
+   </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:Sara_mat100@hotmail.co.uk">Sara_mat100@hotmail.co.uk</a></p>
+            <p>Phone: +962798533128</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/sarahmatar" target="_blank">linkedin.com/sarahmatar</a></p>
+            <p>GitHub: <a href="https://github.com/sara-mat100" target="_blank">github.com/sara-mat100</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Sara Matar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
