@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+# Define the project folder for the updated portfolio
+project_folder = "/mnt/data/sara_matar_portfolio_v2"
+
+# Create the necessary project structure
+os.makedirs(f"{project_folder}/assets", exist_ok=True)
+
+# Updated HTML content with enhanced styling, animations, and improved structure
+html_content = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,11 +35,13 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Background Animation -->
     <header class="parallax hero">
+        <div class="overlay"></div>
         <div class="container text-center">
             <h1 class="display-4">Welcome to My Portfolio</h1>
             <p class="lead">Full Stack Developer | Cloud Solutions | DevOps</p>
+            <a href="#about" class="btn btn-primary mt-3">Learn More</a>
         </div>
     </header>
 
@@ -95,10 +104,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+"""
 
-<script>body {
+# CSS content for animations and parallax effects
+css_content = """body {
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
+    background: #f8f9fa;
 }
 
 .parallax {
@@ -116,6 +128,16 @@
     align-items: center;
     justify-content: center;
     background-image: url('assets/background.jpg');
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar {
@@ -127,4 +149,13 @@ footer {
     color: white;
     padding: 20px 0;
 }
-    </script>
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+    transition: all 0.3s ease-in-out;
+}
